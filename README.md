@@ -29,7 +29,7 @@ Each model is tuned using cross-validation and evaluated on accuracy, precision,
 - Confusion Matrix
 ROC curves are plotted to compare model performance visually.
 
-![ROC Curve](document/roc_curve)
+![ROC Curve](document/roc_curve.png)
 
 ## 🛠️ Technologies
 - Python
@@ -40,12 +40,17 @@ ROC curves are plotted to compare model performance visually.
 
 ## 🚀 How to Run
 - Clone the repo:
-git clone https://github.com/teresathuduong/spam-detection.git
-cd spam-detection
+```python
+git clone https://github.com/teresathuduong/spam-detection-project.git
+```
 - Install dependencies:
+```python
 pip install -r requirements.txt
+```
 - Run the script:
+```python
 python spam_detection.py
+```
 
 
 ## 📌 Notes
